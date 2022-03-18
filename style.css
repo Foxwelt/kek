@@ -81,7 +81,7 @@ body {
 
 .user-image {
   border-radius: 20%;
-  margin: 0 0 32px;
+  margin: 0 0 0px;
   text-align: center;
 }
 
@@ -188,4 +188,36 @@ body {
 .footer-phone {
   padding-left: 25px;
   background-image: url("./img/icon-phone.svg");
+}
+
+
+
+
+
+
+button{
+  background-color: transparent;
+  cursor: pointer;
+  border-color: transparent;
+}
+
+.heart{
+  width: 50px;
+  height: 50px;
+  background-image: url("./img/heart3.svg");
+  background-repeat: no-repeat;
+}
+
+.heart-added{
+  width: 50px;
+  height: 50px;
+  background-image: url("./img/heart-added.svg");
+  background-repeat: no-repeat;
+
+}
+
+.counter{
+  font-size: large;
+  color: red;
+  font-weight: bold;
 }
