@@ -6,7 +6,7 @@ body {
   line-height: 32px;
   color: #f2f2f2;
   background-color: #080208;
-  background-image: url("img/hero-bg.jpg");
+  background-image: url("./img/hero-bg.jpg");
   background-repeat: no-repeat;
   background-position: top center;
 }
@@ -38,15 +38,16 @@ body {
 
 .header-email {
   padding-left: 30px;
-  background-image: url("img/icon-email.svg");
+  background-image: url("./img/icon-email.svg");
 }
 
 .header-phone {
   padding-left: 25px;
-  background-image: url("img/icon-phone.svg");
+  background-image: url("./img/icon-phone.svg");
 }
 
 .hero-image {
+	text-align:center;
   margin-bottom: 480px;
 }
 
@@ -79,6 +80,7 @@ body {
 }
 
 .user-image {
+  border-radius: 20%;
   margin: 0 0 32px;
   text-align: center;
 }
@@ -107,11 +109,11 @@ body {
 }
 
 .skill-html {
-  background-image: url("img/icon-html.svg");
+  background-image: url("./img/icon-html.svg");
 }
 
 .skill-css {
-  background-image: url("img/icon-css.svg");
+  background-image: url("./img/icon-css.svg");
 }
 
 .level {
@@ -180,10 +182,10 @@ body {
 
 .footer-email {
   padding-left: 30px;
-  background-image: url("img/icon-email.svg");
+  background-image: url("./img/icon-email.svg");
 }
 
 .footer-phone {
   padding-left: 25px;
-  background-image: url("img/icon-phone.svg");
+  background-image: url("./img/icon-phone.svg");
 }
