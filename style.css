@@ -73,16 +73,22 @@ body {
 }
 
 .subheading {
-  margin: 0 0 56px;
+  margin-left: 0px;
+  
   font-size: 56px;
   line-height: 80px;
-  text-align: center;
+  text-align: left;
 }
 
 .user-image {
-  border-radius: 20%;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
   margin: 0 0 0px;
   text-align: center;
+  width: 640px;
+  height: 400px;
+
+  
 }
 
 .intro h3,
@@ -202,6 +208,8 @@ button{
 }
 
 .heart{
+  margin-left: auto;
+  margin-right: auto;
   width: 50px;
   height: 50px;
   background-image: url("./img/heart3.svg");
@@ -217,7 +225,27 @@ button{
 }
 
 .counter{
+
+  margin: 50px;
   font-size: large;
-  color: red;
+  color: rgb(151, 12, 109);
   font-weight: bold;
+}
+
+
+.likes{
+  justify-content: left;
+display: grid;
+
+
+}
+
+.frame{
+  padding-top: 5px;
+padding-right: 30px;
+border-bottom-left-radius: 40px;
+border-bottom-right-radius: 40px;
+background-color: #fea18d;
+height: 50px;
+text-align: right;
 }
